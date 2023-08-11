@@ -1,0 +1,1282 @@
+[
+  {
+    "course": [
+      {
+        "id": "5de7ca2a-22d0-4d69-a291-ad9d73bfb2e9",
+        "name": "Mathematics",
+        "description": "A comprehensive course on mathematics",
+        "created_at": "2023-08-10T16:22:54.677Z",
+        "updated_at": "2023-08-11T00:48:01.685Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "45fd63a5-a9f2-4ad1-beed-801f88977403",
+        "name": "English Literature",
+        "description": "Explore the world of English literature",
+        "created_at": "2023-08-10T14:12:47.181Z",
+        "updated_at": "2023-08-10T16:23:21.413Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "efca7e7d-fc80-40a4-abc6-ddb9182d2ec4",
+        "name": "Physics",
+        "description": "Learn the principles of physics",
+        "created_at": "2023-08-11T07:27:13.548Z",
+        "updated_at": "2023-08-11T02:25:09.452Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "19ce6db5-aef8-448b-b80a-89d7d03292fe",
+        "name": "History",
+        "description": "Discover the events that shaped history",
+        "created_at": "2023-08-10T15:14:33.071Z",
+        "updated_at": "2023-08-10T13:26:12.246Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "c029d321-37b9-48d9-968b-6cbeafca0b41",
+        "name": "Computer Science",
+        "description": "Master the fundamentals of computer science",
+        "created_at": "2023-08-10T13:45:57.237Z",
+        "updated_at": "2023-08-10T20:53:16.145Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "enrollment": [
+      {
+        "id": "c8f8af94-db61-4aff-ad8e-b4351e416916",
+        "created_at": "2023-08-10T22:05:59.210Z",
+        "updated_at": "2023-08-11T04:46:13.958Z",
+        "course_id": "19ce6db5-aef8-448b-b80a-89d7d03292fe",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "0b7e2a42-64c9-47c8-8b79-fc91c9a4d0c3",
+        "created_at": "2023-08-11T09:44:15.734Z",
+        "updated_at": "2023-08-11T11:29:17.228Z",
+        "course_id": "efca7e7d-fc80-40a4-abc6-ddb9182d2ec4",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "b1132e6a-ecfe-4e1f-ae85-24b1c88c60d8",
+        "created_at": "2023-08-11T05:16:12.459Z",
+        "updated_at": "2023-08-11T09:50:50.215Z",
+        "course_id": "efca7e7d-fc80-40a4-abc6-ddb9182d2ec4",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "4267bc8e-9dc9-4c53-910d-5e537c256abb",
+        "created_at": "2023-08-10T18:24:47.756Z",
+        "updated_at": "2023-08-10T16:15:14.697Z",
+        "course_id": "efca7e7d-fc80-40a4-abc6-ddb9182d2ec4",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "8ceaf746-9f79-4477-a29b-ca826bdacf90",
+        "created_at": "2023-08-10T15:20:31.890Z",
+        "updated_at": "2023-08-10T12:21:55.095Z",
+        "course_id": "c029d321-37b9-48d9-968b-6cbeafca0b41",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "53b5645f-af7c-4622-8d0b-bd66ae443133",
+        "email": "Marcia.Nicolas@yahoo.com",
+        "firstName": "Lolita",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/784.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a373e352-f710-4c4e-8d61-89ce5ca2b4f4",
+        "email": "Felix.Smith43@yahoo.com",
+        "firstName": "Imelda",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5582179",
+        "tenantId": null
+      },
+      {
+        "reference": "22748d47-803c-4e16-bed6-418619faee51",
+        "email": "Melyssa.Roberts@gmail.com",
+        "firstName": "Pete",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1145.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3ca51197-0bf8-47d5-a0a3-9971ad27ca50",
+        "email": "Urban88@hotmail.com",
+        "firstName": "Omer",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87139877",
+        "tenantId": null
+      },
+      {
+        "reference": "bbd821f5-dd6c-4266-8f81-2796b627339f",
+        "email": "Francesco25@hotmail.com",
+        "firstName": "Kacey",
+        "lastName": "Rempel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8915175",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "3a0e7ab6-e0a9-4e83-ac74-b3c26fc20f43",
+        "name": "Mathematics",
+        "description": "A comprehensive course on mathematics",
+        "created_at": "2023-08-10T15:40:54.507Z",
+        "updated_at": "2023-08-10T14:07:42.265Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "65e70055-f5c8-4c8e-ba81-1b88dc1c570d",
+        "name": "English Literature",
+        "description": "Explore the world of English literature",
+        "created_at": "2023-08-10T19:55:25.861Z",
+        "updated_at": "2023-08-11T02:27:20.209Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "ad73bed6-bcf5-491f-ba0d-5a683d6e33ac",
+        "name": "Physics",
+        "description": "Learn the principles of physics",
+        "created_at": "2023-08-11T00:31:47.412Z",
+        "updated_at": "2023-08-11T02:42:04.434Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "6d0231af-69a1-4213-bac0-788e5005a5cf",
+        "name": "History",
+        "description": "Discover the events that shaped history",
+        "created_at": "2023-08-10T19:02:31.010Z",
+        "updated_at": "2023-08-10T16:50:32.111Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "a57f4eac-3d01-4f00-84f0-6609313e8996",
+        "name": "Computer Science",
+        "description": "Master the fundamentals of computer science",
+        "created_at": "2023-08-10T23:36:13.826Z",
+        "updated_at": "2023-08-11T07:29:06.663Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "enrollment": [
+      {
+        "id": "f23acb73-7ff9-4ecf-a6a5-384ae995baca",
+        "created_at": "2023-08-10T23:54:29.328Z",
+        "updated_at": "2023-08-11T05:18:56.599Z",
+        "course_id": "3a0e7ab6-e0a9-4e83-ac74-b3c26fc20f43",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "b6edceab-2b79-4d0c-a61b-59678213ce2b",
+        "created_at": "2023-08-11T03:04:24.950Z",
+        "updated_at": "2023-08-11T08:09:21.402Z",
+        "course_id": "6d0231af-69a1-4213-bac0-788e5005a5cf",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "a9c14c6b-91ed-44f7-b976-d1f9d4025986",
+        "created_at": "2023-08-11T04:16:20.886Z",
+        "updated_at": "2023-08-10T17:32:47.110Z",
+        "course_id": "3a0e7ab6-e0a9-4e83-ac74-b3c26fc20f43",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "c243b1ea-4ee2-40d2-a6e8-9b15cf84d54a",
+        "created_at": "2023-08-11T07:20:46.911Z",
+        "updated_at": "2023-08-10T14:11:10.133Z",
+        "course_id": "6d0231af-69a1-4213-bac0-788e5005a5cf",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "6fde00b9-ddad-443e-8ca0-42d4997a481e",
+        "created_at": "2023-08-11T02:57:16.569Z",
+        "updated_at": "2023-08-10T23:17:05.010Z",
+        "course_id": "65e70055-f5c8-4c8e-ba81-1b88dc1c570d",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "748d6646-bbda-4e1c-b910-0c23b0777c72",
+        "email": "Dimitri_Becker@hotmail.com",
+        "firstName": "Camron",
+        "lastName": "Ondricka-Prosacco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12819107",
+        "tenantId": null
+      },
+      {
+        "reference": "e655f043-fc85-4ccf-9240-f2e8e951811e",
+        "email": "Jayden.Durgan20@gmail.com",
+        "firstName": "Layne",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1001.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eabdcc87-a619-4dcf-83e3-42aaaf5d1d1c",
+        "email": "Isaiah.Kuvalis71@yahoo.com",
+        "firstName": "Emory",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68378919",
+        "tenantId": null
+      },
+      {
+        "reference": "8a6cdf90-11d0-431b-9169-79fd26210bd1",
+        "email": "Wellington.Padberg34@yahoo.com",
+        "firstName": "Josephine",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26781033",
+        "tenantId": null
+      },
+      {
+        "reference": "077342ec-359c-41f5-8a82-eed3366dc184",
+        "email": "Leonor.Lehner@hotmail.com",
+        "firstName": "Julian",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10297899",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "e76ca553-9f96-479a-9d60-3ac63a36f6a8",
+        "name": "Mathematics",
+        "description": "A comprehensive course on mathematics",
+        "created_at": "2023-08-11T09:07:41.861Z",
+        "updated_at": "2023-08-10T17:18:35.554Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "e02bc562-7eed-413d-94fd-865f27e8c79f",
+        "name": "English Literature",
+        "description": "Explore the world of English literature",
+        "created_at": "2023-08-11T03:14:02.607Z",
+        "updated_at": "2023-08-11T09:25:58.883Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "309a2111-3ca1-4e77-93c6-cd2935627e89",
+        "name": "Physics",
+        "description": "Learn the principles of physics",
+        "created_at": "2023-08-10T19:40:53.306Z",
+        "updated_at": "2023-08-10T22:04:33.347Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "4a4726cc-fcb0-45dc-86ed-b175e5c7de44",
+        "name": "History",
+        "description": "Discover the events that shaped history",
+        "created_at": "2023-08-11T04:40:53.732Z",
+        "updated_at": "2023-08-11T08:16:08.708Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "6ae4318d-ec24-43af-92f2-24d813b70b80",
+        "name": "Computer Science",
+        "description": "Master the fundamentals of computer science",
+        "created_at": "2023-08-11T04:29:04.940Z",
+        "updated_at": "2023-08-10T13:36:57.155Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "enrollment": [
+      {
+        "id": "1d806fa4-f221-41a8-8b58-147f4167dd84",
+        "created_at": "2023-08-11T06:57:54.486Z",
+        "updated_at": "2023-08-10T12:27:16.805Z",
+        "course_id": "e02bc562-7eed-413d-94fd-865f27e8c79f",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "ad13ebef-4e32-4b04-878b-da6204a27391",
+        "created_at": "2023-08-11T05:54:30.635Z",
+        "updated_at": "2023-08-11T06:27:33.778Z",
+        "course_id": "6ae4318d-ec24-43af-92f2-24d813b70b80",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "ba795c04-bd66-45cb-87fd-b65eb9c14e93",
+        "created_at": "2023-08-10T18:23:11.372Z",
+        "updated_at": "2023-08-11T04:38:53.840Z",
+        "course_id": "309a2111-3ca1-4e77-93c6-cd2935627e89",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "abb59c68-5acb-4277-b937-cec581b95121",
+        "created_at": "2023-08-10T15:46:43.774Z",
+        "updated_at": "2023-08-10T21:11:48.969Z",
+        "course_id": "4a4726cc-fcb0-45dc-86ed-b175e5c7de44",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "827e1fdf-f822-44e2-87a2-9aa8ae5f0aeb",
+        "created_at": "2023-08-10T19:47:33.733Z",
+        "updated_at": "2023-08-10T15:21:20.007Z",
+        "course_id": "6ae4318d-ec24-43af-92f2-24d813b70b80",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c6fa4bd3-21a1-4cb6-b648-508e8e426b29",
+        "email": "Mercedes52@hotmail.com",
+        "firstName": "Rod",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31400669",
+        "tenantId": null
+      },
+      {
+        "reference": "1ead14c0-e8c1-4038-870d-0e85c0dbc6ec",
+        "email": "Seth.Jacobs@gmail.com",
+        "firstName": "Kavon",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/78.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fd20b83b-1e77-4d91-9eed-b2b0931a15a5",
+        "email": "Adonis.Cremin34@hotmail.com",
+        "firstName": "Antonette",
+        "lastName": "Witting-Waters",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63811969",
+        "tenantId": null
+      },
+      {
+        "reference": "2aa3b91a-9a26-480d-8610-ea0c756d2fd0",
+        "email": "Alec41@gmail.com",
+        "firstName": "Salvador",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16766229",
+        "tenantId": null
+      },
+      {
+        "reference": "6794dbbb-cd59-455c-be52-1080ab85b6be",
+        "email": "Ubaldo87@yahoo.com",
+        "firstName": "Brenda",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/519.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "186139fb-8dcf-49af-8350-a3e5398abd39",
+        "name": "Mathematics",
+        "description": "A comprehensive course on mathematics",
+        "created_at": "2023-08-10T12:34:39.516Z",
+        "updated_at": "2023-08-11T10:28:09.159Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "564d53d1-b9d9-4db2-86e3-76172e36bb4c",
+        "name": "English Literature",
+        "description": "Explore the world of English literature",
+        "created_at": "2023-08-11T05:56:40.722Z",
+        "updated_at": "2023-08-11T01:59:35.008Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "3011f181-37b5-4ca0-ab51-9c155a06bea6",
+        "name": "Physics",
+        "description": "Learn the principles of physics",
+        "created_at": "2023-08-11T04:48:00.655Z",
+        "updated_at": "2023-08-10T23:59:25.392Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "9ff507df-7192-4cea-a842-77034f788036",
+        "name": "History",
+        "description": "Discover the events that shaped history",
+        "created_at": "2023-08-11T02:58:13.372Z",
+        "updated_at": "2023-08-11T00:06:18.596Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "8c7252d0-fcb9-4b31-9a76-ba76b32fac9a",
+        "name": "Computer Science",
+        "description": "Master the fundamentals of computer science",
+        "created_at": "2023-08-10T12:41:08.604Z",
+        "updated_at": "2023-08-11T02:10:45.025Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "enrollment": [
+      {
+        "id": "a2a55ced-607c-42b3-a727-b5bdbad5a773",
+        "created_at": "2023-08-11T04:42:03.652Z",
+        "updated_at": "2023-08-10T15:04:16.187Z",
+        "course_id": "3011f181-37b5-4ca0-ab51-9c155a06bea6",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "1caa0381-a1e2-461d-95a6-8adfb420dd30",
+        "created_at": "2023-08-11T07:56:53.892Z",
+        "updated_at": "2023-08-11T06:25:22.824Z",
+        "course_id": "8c7252d0-fcb9-4b31-9a76-ba76b32fac9a",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "3340dc81-888a-4c65-8993-ad865c8d3b89",
+        "created_at": "2023-08-11T00:55:28.908Z",
+        "updated_at": "2023-08-11T07:51:30.155Z",
+        "course_id": "8c7252d0-fcb9-4b31-9a76-ba76b32fac9a",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "efadcd04-0f92-4cc5-96a7-c2b7d8b505d1",
+        "created_at": "2023-08-10T22:15:36.911Z",
+        "updated_at": "2023-08-11T10:28:46.806Z",
+        "course_id": "9ff507df-7192-4cea-a842-77034f788036",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "2fe0db9a-5c47-44c5-b1d6-34be17776a51",
+        "created_at": "2023-08-11T09:21:22.223Z",
+        "updated_at": "2023-08-11T10:23:12.719Z",
+        "course_id": "564d53d1-b9d9-4db2-86e3-76172e36bb4c",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d585c904-e380-4a3c-8af6-3059f4c72433",
+        "email": "Iliana_Orn83@gmail.com",
+        "firstName": "Magali",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1124.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9256f9a8-e383-4398-b4ad-dfce5d1dc29c",
+        "email": "Eldridge_Beier-Ondricka50@hotmail.com",
+        "firstName": "Haylee",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/212.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "72ab90a5-777f-41f5-9933-c486849f8858",
+        "email": "Aliya_Gutmann40@yahoo.com",
+        "firstName": "Ally",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/949.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1a6ab90d-923d-4f37-b311-3654e6fc953d",
+        "email": "Logan.Kessler@gmail.com",
+        "firstName": "Diego",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10718258",
+        "tenantId": null
+      },
+      {
+        "reference": "4ada1d53-fd72-45b7-820b-3cad3ae11d49",
+        "email": "Joana.Crona@gmail.com",
+        "firstName": "Sean",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96467141",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "2027d317-c3f1-413e-861a-5264166756f3",
+        "name": "Mathematics",
+        "description": "A comprehensive course on mathematics",
+        "created_at": "2023-08-10T12:25:38.358Z",
+        "updated_at": "2023-08-10T23:12:20.798Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "719b7521-a883-49f5-a91a-7951e2b3a267",
+        "name": "English Literature",
+        "description": "Explore the world of English literature",
+        "created_at": "2023-08-11T00:42:26.891Z",
+        "updated_at": "2023-08-11T11:30:34.657Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "a5a15359-b712-45e2-9d0f-956b7c901b22",
+        "name": "Physics",
+        "description": "Learn the principles of physics",
+        "created_at": "2023-08-11T01:47:01.724Z",
+        "updated_at": "2023-08-10T13:21:23.853Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "dd2c002d-2dc7-498b-a514-862982ecdcf2",
+        "name": "History",
+        "description": "Discover the events that shaped history",
+        "created_at": "2023-08-11T04:29:35.032Z",
+        "updated_at": "2023-08-10T16:35:19.897Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "2bfe6683-15bd-49ce-aa93-67a455d49850",
+        "name": "Computer Science",
+        "description": "Master the fundamentals of computer science",
+        "created_at": "2023-08-10T15:38:02.756Z",
+        "updated_at": "2023-08-10T18:11:27.945Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "enrollment": [
+      {
+        "id": "c8edce86-56bf-4f3a-8c39-1e2f5b7bdffc",
+        "created_at": "2023-08-11T04:32:56.068Z",
+        "updated_at": "2023-08-10T12:18:55.404Z",
+        "course_id": "719b7521-a883-49f5-a91a-7951e2b3a267",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "7aa39ffe-295f-4554-bc3f-31b152ae61f5",
+        "created_at": "2023-08-10T14:56:20.883Z",
+        "updated_at": "2023-08-10T13:56:45.316Z",
+        "course_id": "719b7521-a883-49f5-a91a-7951e2b3a267",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "e9f42d41-00cc-44f2-9e21-a1582c1eba5c",
+        "created_at": "2023-08-11T07:32:03.064Z",
+        "updated_at": "2023-08-11T08:43:46.016Z",
+        "course_id": "719b7521-a883-49f5-a91a-7951e2b3a267",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "ef5155a3-52ce-4d18-8d58-00befd84f0f5",
+        "created_at": "2023-08-11T08:11:03.133Z",
+        "updated_at": "2023-08-10T17:32:41.645Z",
+        "course_id": "2027d317-c3f1-413e-861a-5264166756f3",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "d23e41e0-dfd5-4de3-a3c9-59935e0aca0c",
+        "created_at": "2023-08-10T17:32:17.349Z",
+        "updated_at": "2023-08-10T12:15:09.617Z",
+        "course_id": "dd2c002d-2dc7-498b-a514-862982ecdcf2",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6549a868-4f8f-4b27-9795-bb2cb87f3ad8",
+        "email": "Layla_McCullough@yahoo.com",
+        "firstName": "Milan",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/310.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a44d4cc6-6329-4fff-b65f-2c9dd0111634",
+        "email": "Scottie_Lemke@hotmail.com",
+        "firstName": "Mitchell",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/919.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dc4e9a10-237d-49c8-8bcf-3c900d09eeb1",
+        "email": "Liliane.Green@yahoo.com",
+        "firstName": "Francisca",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61523978",
+        "tenantId": null
+      },
+      {
+        "reference": "ad42ecdd-3adb-4b76-9253-58bffe443d3a",
+        "email": "Cassandre.Stokes@yahoo.com",
+        "firstName": "Monte",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32545581",
+        "tenantId": null
+      },
+      {
+        "reference": "a59bad3f-160c-4358-a3bd-639ac9ba2d60",
+        "email": "Ivory.Mante65@hotmail.com",
+        "firstName": "Vada",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/862.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "fb78ffd6-319a-4e33-b67d-35475739ad79",
+        "name": "Mathematics",
+        "description": "A comprehensive course on mathematics",
+        "created_at": "2023-08-11T05:00:08.976Z",
+        "updated_at": "2023-08-10T21:03:34.770Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "19009c9b-cfe6-492e-933f-99133620b6dc",
+        "name": "English Literature",
+        "description": "Explore the world of English literature",
+        "created_at": "2023-08-10T18:52:07.108Z",
+        "updated_at": "2023-08-10T17:17:51.439Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "aac23915-4f01-4578-b2af-e869e2e9249a",
+        "name": "Physics",
+        "description": "Learn the principles of physics",
+        "created_at": "2023-08-11T06:15:22.129Z",
+        "updated_at": "2023-08-10T19:07:04.947Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "8f200f24-0fc8-44e2-ba39-fc0339d4b3a3",
+        "name": "History",
+        "description": "Discover the events that shaped history",
+        "created_at": "2023-08-11T10:23:56.369Z",
+        "updated_at": "2023-08-10T21:12:21.121Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "dd9805d9-2ad9-4665-86c2-969b385cda7d",
+        "name": "Computer Science",
+        "description": "Master the fundamentals of computer science",
+        "created_at": "2023-08-10T22:17:03.834Z",
+        "updated_at": "2023-08-10T15:11:27.556Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "enrollment": [
+      {
+        "id": "b5666ac6-a1b6-423a-8ee1-42768ddad26f",
+        "created_at": "2023-08-10T22:09:29.983Z",
+        "updated_at": "2023-08-11T09:42:00.890Z",
+        "course_id": "19009c9b-cfe6-492e-933f-99133620b6dc",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "11b6e53b-7f27-4dc6-abeb-8707922346e2",
+        "created_at": "2023-08-10T15:32:09.147Z",
+        "updated_at": "2023-08-10T17:53:24.650Z",
+        "course_id": "fb78ffd6-319a-4e33-b67d-35475739ad79",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "315460b3-5f30-4eb7-b5c4-5deabe088b10",
+        "created_at": "2023-08-11T02:28:56.253Z",
+        "updated_at": "2023-08-10T20:29:58.783Z",
+        "course_id": "dd9805d9-2ad9-4665-86c2-969b385cda7d",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "922df50f-ed7f-4944-a4b4-b63a886649c0",
+        "created_at": "2023-08-10T16:08:10.181Z",
+        "updated_at": "2023-08-11T02:40:15.844Z",
+        "course_id": "dd9805d9-2ad9-4665-86c2-969b385cda7d",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "a58f7866-92bd-4c8d-8d88-e6e87fbe6a6c",
+        "created_at": "2023-08-11T01:36:49.682Z",
+        "updated_at": "2023-08-10T21:48:43.190Z",
+        "course_id": "dd9805d9-2ad9-4665-86c2-969b385cda7d",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6da7dc87-60f9-46f3-a5a0-efdbd3eb7288",
+        "email": "Alisa.Oberbrunner@gmail.com",
+        "firstName": "Reyes",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/520.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "94e67f23-83e0-4cdb-9086-534805a6cefc",
+        "email": "Monty80@gmail.com",
+        "firstName": "Vicky",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/11.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ab422f27-6f42-4808-bf2a-e1dcdc9ccae1",
+        "email": "Brooks35@yahoo.com",
+        "firstName": "Jeffrey",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13056812",
+        "tenantId": null
+      },
+      {
+        "reference": "f80c818a-23ef-4b26-baf3-63c44ddc6cad",
+        "email": "Louvenia.DAmore@hotmail.com",
+        "firstName": "Brooks",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23968847",
+        "tenantId": null
+      },
+      {
+        "reference": "f3765bb6-d775-4ddb-96ba-f88cb89c2c45",
+        "email": "Hilbert_Effertz@yahoo.com",
+        "firstName": "Glen",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88103911",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "5e94a6a8-fb0e-4910-bc02-318c1011c067",
+        "name": "Mathematics",
+        "description": "A comprehensive course on mathematics",
+        "created_at": "2023-08-10T19:28:03.432Z",
+        "updated_at": "2023-08-11T05:46:57.495Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "ff234510-8a6d-4337-afc4-35f633f19970",
+        "name": "English Literature",
+        "description": "Explore the world of English literature",
+        "created_at": "2023-08-11T03:08:28.404Z",
+        "updated_at": "2023-08-11T08:34:10.652Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "daa62ff3-4ce5-45c3-94e3-4e0201a6c383",
+        "name": "Physics",
+        "description": "Learn the principles of physics",
+        "created_at": "2023-08-10T17:14:10.765Z",
+        "updated_at": "2023-08-10T14:23:01.122Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "f2d6d611-c392-48dc-a738-2ef382b363c5",
+        "name": "History",
+        "description": "Discover the events that shaped history",
+        "created_at": "2023-08-11T01:09:15.299Z",
+        "updated_at": "2023-08-10T22:11:33.350Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "c1756ec6-a3c2-4976-9521-688571cc5db7",
+        "name": "Computer Science",
+        "description": "Master the fundamentals of computer science",
+        "created_at": "2023-08-10T18:37:35.478Z",
+        "updated_at": "2023-08-11T03:19:03.419Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "enrollment": [
+      {
+        "id": "1b10d730-8737-4bc5-9401-7179fb436b92",
+        "created_at": "2023-08-10T15:07:35.509Z",
+        "updated_at": "2023-08-11T03:34:22.867Z",
+        "course_id": "5e94a6a8-fb0e-4910-bc02-318c1011c067",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "ae3fd82f-bf80-4bb1-8ce0-00559c86849d",
+        "created_at": "2023-08-11T09:21:48.500Z",
+        "updated_at": "2023-08-11T05:39:40.514Z",
+        "course_id": "5e94a6a8-fb0e-4910-bc02-318c1011c067",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "798865d0-5069-4f4b-afc9-5380b65d3e8a",
+        "created_at": "2023-08-10T13:38:50.216Z",
+        "updated_at": "2023-08-11T03:23:55.450Z",
+        "course_id": "ff234510-8a6d-4337-afc4-35f633f19970",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "21c644fd-f595-45cc-ad86-4e86da499b0b",
+        "created_at": "2023-08-10T13:11:55.794Z",
+        "updated_at": "2023-08-10T15:52:49.516Z",
+        "course_id": "5e94a6a8-fb0e-4910-bc02-318c1011c067",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "9225a25b-b07e-4256-b20f-bf9747b78df1",
+        "created_at": "2023-08-11T08:32:42.393Z",
+        "updated_at": "2023-08-11T03:11:23.669Z",
+        "course_id": "ff234510-8a6d-4337-afc4-35f633f19970",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c3fd42b2-4fce-42b1-8577-914560e6b263",
+        "email": "Akeem_Rempel@gmail.com",
+        "firstName": "Virginia",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/699.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b4ba591-24d8-45fc-98f9-f80e5fed38fb",
+        "email": "Rhea36@hotmail.com",
+        "firstName": "Willard",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/548.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6992adad-3df7-4132-96e2-4e8eeaf6ea06",
+        "email": "Ally77@gmail.com",
+        "firstName": "Sebastian",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/93.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e96229d2-0214-4ad8-8dfc-3884ff1009ff",
+        "email": "Jameson7@hotmail.com",
+        "firstName": "Gladys",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/105.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e40dd5ea-8818-4833-8c2f-4acc014ae6d2",
+        "email": "Sherwood32@yahoo.com",
+        "firstName": "Rosario",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/978.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "b78a2541-2056-4af9-a1ac-a7fbc26aa184",
+        "name": "Mathematics",
+        "description": "A comprehensive course on mathematics",
+        "created_at": "2023-08-10T14:29:03.917Z",
+        "updated_at": "2023-08-10T13:56:56.887Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "21611e26-07c9-44f3-be75-9e795b695707",
+        "name": "English Literature",
+        "description": "Explore the world of English literature",
+        "created_at": "2023-08-10T20:06:17.276Z",
+        "updated_at": "2023-08-10T13:10:03.953Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "689bb099-4634-4bdb-ae76-7945ceaa4bc2",
+        "name": "Physics",
+        "description": "Learn the principles of physics",
+        "created_at": "2023-08-10T17:13:27.382Z",
+        "updated_at": "2023-08-11T10:27:31.899Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "237b9a3a-1e97-4687-86a7-1ae34b1646b0",
+        "name": "History",
+        "description": "Discover the events that shaped history",
+        "created_at": "2023-08-11T01:38:19.731Z",
+        "updated_at": "2023-08-10T20:52:06.619Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "2edcd8b2-1ee0-4f56-a5ae-3693e4fdfe4e",
+        "name": "Computer Science",
+        "description": "Master the fundamentals of computer science",
+        "created_at": "2023-08-11T00:08:00.647Z",
+        "updated_at": "2023-08-10T16:38:24.759Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "enrollment": [
+      {
+        "id": "3ab2aa21-fa6f-4f01-b9b8-e7f11b991d5b",
+        "created_at": "2023-08-11T04:55:39.254Z",
+        "updated_at": "2023-08-10T12:17:19.368Z",
+        "course_id": "b78a2541-2056-4af9-a1ac-a7fbc26aa184",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "b8968510-70e2-45f1-8110-f084a1a8eb88",
+        "created_at": "2023-08-11T10:42:09.773Z",
+        "updated_at": "2023-08-10T12:10:02.604Z",
+        "course_id": "2edcd8b2-1ee0-4f56-a5ae-3693e4fdfe4e",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "bc8b75f3-e2cc-4c04-b4e8-ce927ddebc2e",
+        "created_at": "2023-08-10T14:18:20.310Z",
+        "updated_at": "2023-08-10T14:55:19.616Z",
+        "course_id": "689bb099-4634-4bdb-ae76-7945ceaa4bc2",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "aff1bff6-407d-4921-8ac6-f2402234b427",
+        "created_at": "2023-08-10T22:46:57.339Z",
+        "updated_at": "2023-08-10T14:00:22.426Z",
+        "course_id": "237b9a3a-1e97-4687-86a7-1ae34b1646b0",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "5699f9f0-967f-4e63-a346-8fab07b74968",
+        "created_at": "2023-08-10T14:19:59.423Z",
+        "updated_at": "2023-08-10T14:51:49.384Z",
+        "course_id": "21611e26-07c9-44f3-be75-9e795b695707",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "793a4cba-7615-4dcf-9a43-f4ea50174631",
+        "email": "Carley.Bauch99@yahoo.com",
+        "firstName": "Nathanael",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/993.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "52603531-a411-49d5-b5db-d235f1c5b8a9",
+        "email": "Samara_Rolfson82@yahoo.com",
+        "firstName": "Austin",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/701.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a0ddf762-41f6-4651-b07f-d30fefb565d1",
+        "email": "Werner.White@gmail.com",
+        "firstName": "Leila",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/293.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dc67a103-9b2a-4c42-bb21-d6dd62e24857",
+        "email": "Angelina52@gmail.com",
+        "firstName": "Melvin",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/415.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d9665994-d44c-4733-97d6-bf099167f5fa",
+        "email": "Madie22@gmail.com",
+        "firstName": "Herminia",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37077644",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "068552a2-93ac-4688-8b43-1f8363722474",
+        "name": "Mathematics",
+        "description": "A comprehensive course on mathematics",
+        "created_at": "2023-08-11T05:02:50.405Z",
+        "updated_at": "2023-08-10T13:54:13.581Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "1203dc4e-dd77-4cb3-b3ca-aef8d3dcb55e",
+        "name": "English Literature",
+        "description": "Explore the world of English literature",
+        "created_at": "2023-08-10T23:15:01.477Z",
+        "updated_at": "2023-08-11T05:55:05.451Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "3bd1e739-b27a-4485-ae88-0ef18fa67b39",
+        "name": "Physics",
+        "description": "Learn the principles of physics",
+        "created_at": "2023-08-10T11:55:40.265Z",
+        "updated_at": "2023-08-10T15:10:19.345Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "30a95046-9a06-4498-810d-b5ec5c7066df",
+        "name": "History",
+        "description": "Discover the events that shaped history",
+        "created_at": "2023-08-11T06:48:26.128Z",
+        "updated_at": "2023-08-11T05:30:07.978Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "0e66a6da-3643-40c2-aedb-6e0cdbd62183",
+        "name": "Computer Science",
+        "description": "Master the fundamentals of computer science",
+        "created_at": "2023-08-11T05:59:07.328Z",
+        "updated_at": "2023-08-10T15:36:20.122Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "enrollment": [
+      {
+        "id": "f59decf1-59d3-4587-b854-aa934ece4ebb",
+        "created_at": "2023-08-11T09:03:21.409Z",
+        "updated_at": "2023-08-11T10:53:07.284Z",
+        "course_id": "1203dc4e-dd77-4cb3-b3ca-aef8d3dcb55e",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "feea2df3-6da1-4f6f-8975-7d61dee4b0f5",
+        "created_at": "2023-08-11T08:40:29.461Z",
+        "updated_at": "2023-08-10T18:13:46.902Z",
+        "course_id": "1203dc4e-dd77-4cb3-b3ca-aef8d3dcb55e",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "a41a3683-a5fb-4515-adf3-16ee73884f7d",
+        "created_at": "2023-08-11T02:35:15.887Z",
+        "updated_at": "2023-08-10T16:14:43.481Z",
+        "course_id": "0e66a6da-3643-40c2-aedb-6e0cdbd62183",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "613c0624-e6df-469b-920f-2e4d87bcaaee",
+        "created_at": "2023-08-11T10:52:03.348Z",
+        "updated_at": "2023-08-10T18:59:00.661Z",
+        "course_id": "30a95046-9a06-4498-810d-b5ec5c7066df",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "f8fa8809-3717-476e-965d-63c50277f47b",
+        "created_at": "2023-08-11T04:57:12.506Z",
+        "updated_at": "2023-08-11T08:12:35.219Z",
+        "course_id": "30a95046-9a06-4498-810d-b5ec5c7066df",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c22b6dbc-972c-4054-8d5e-65d13c964e8e",
+        "email": "Craig.Pacocha49@hotmail.com",
+        "firstName": "Ima",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34900932",
+        "tenantId": null
+      },
+      {
+        "reference": "ec71e789-07a9-46b7-abdc-f021c1d94992",
+        "email": "Madeline24@hotmail.com",
+        "firstName": "Irma",
+        "lastName": "Harber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/545.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a81a7d90-fae0-4830-bcff-cf79224e74f0",
+        "email": "Jessyca.Heller34@hotmail.com",
+        "firstName": "Sarai",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4866577",
+        "tenantId": null
+      },
+      {
+        "reference": "47ab8e5b-1481-49ae-9c56-3e8d7354bc8a",
+        "email": "Ian86@hotmail.com",
+        "firstName": "David",
+        "lastName": "Lebsack",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60514364",
+        "tenantId": null
+      },
+      {
+        "reference": "3ac095ca-f545-4d19-9e8a-41dc4b67c116",
+        "email": "Freddy70@gmail.com",
+        "firstName": "Larissa",
+        "lastName": "Heidenreich-Willms",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1216.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "105bf7ff-e35d-4f23-be2a-6ad611517f67",
+        "name": "Mathematics",
+        "description": "A comprehensive course on mathematics",
+        "created_at": "2023-08-11T07:52:23.186Z",
+        "updated_at": "2023-08-10T22:09:15.975Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "646e69f4-6303-4a3e-bf53-292510aac518",
+        "name": "English Literature",
+        "description": "Explore the world of English literature",
+        "created_at": "2023-08-11T10:37:36.387Z",
+        "updated_at": "2023-08-10T18:46:17.166Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "fba690a6-b5d5-4e5f-a69d-c66643801428",
+        "name": "Physics",
+        "description": "Learn the principles of physics",
+        "created_at": "2023-08-11T04:10:52.825Z",
+        "updated_at": "2023-08-10T22:36:58.363Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "ec446b68-ef41-42c8-9667-b830a2ea054a",
+        "name": "History",
+        "description": "Discover the events that shaped history",
+        "created_at": "2023-08-10T15:01:57.591Z",
+        "updated_at": "2023-08-10T19:05:44.603Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "069ec1d2-a7e1-4891-a205-844d1dc76527",
+        "name": "Computer Science",
+        "description": "Master the fundamentals of computer science",
+        "created_at": "2023-08-10T21:09:21.723Z",
+        "updated_at": "2023-08-10T12:29:47.009Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "enrollment": [
+      {
+        "id": "7cf832ea-08c9-4454-8f5b-05102c2d4155",
+        "created_at": "2023-08-11T06:24:24.583Z",
+        "updated_at": "2023-08-11T03:25:34.613Z",
+        "course_id": "105bf7ff-e35d-4f23-be2a-6ad611517f67",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "1549c1b7-f32e-4dba-bef9-4b3e33545894",
+        "created_at": "2023-08-10T17:01:57.803Z",
+        "updated_at": "2023-08-11T04:01:25.008Z",
+        "course_id": "646e69f4-6303-4a3e-bf53-292510aac518",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "5922e125-2325-4d4c-b1c1-6c2d58f7c430",
+        "created_at": "2023-08-10T14:00:45.887Z",
+        "updated_at": "2023-08-10T15:35:58.018Z",
+        "course_id": "ec446b68-ef41-42c8-9667-b830a2ea054a",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "002dd9ba-023b-439f-ba29-312581cfbeab",
+        "created_at": "2023-08-11T11:23:28.351Z",
+        "updated_at": "2023-08-10T21:17:13.565Z",
+        "course_id": "646e69f4-6303-4a3e-bf53-292510aac518",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "d2c09a31-b592-4b7f-aac3-bc51e9740985",
+        "created_at": "2023-08-10T14:31:34.913Z",
+        "updated_at": "2023-08-11T03:00:38.284Z",
+        "course_id": "105bf7ff-e35d-4f23-be2a-6ad611517f67",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7e3c070a-ebf8-4f29-ace9-46cb85a1c2c1",
+        "email": "Jerome.Robel25@yahoo.com",
+        "firstName": "Grayson",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/899.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6275ce61-cc53-4c0d-b236-0357dbabf1ce",
+        "email": "Dalton14@hotmail.com",
+        "firstName": "Makayla",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98535250",
+        "tenantId": null
+      },
+      {
+        "reference": "b94b9062-1d45-401a-ba11-d79dbd186745",
+        "email": "Monroe6@yahoo.com",
+        "firstName": "Jannie",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/3.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0e65db85-32ec-44fe-b50d-134f86a940d7",
+        "email": "Margot80@yahoo.com",
+        "firstName": "Sigrid",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43785728",
+        "tenantId": null
+      },
+      {
+        "reference": "50315e99-8793-4c07-b96a-e298d454ad27",
+        "email": "Veda_Rath-Murray83@hotmail.com",
+        "firstName": "Damion",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1020.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
